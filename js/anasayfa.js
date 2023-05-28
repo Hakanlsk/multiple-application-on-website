@@ -67,7 +67,7 @@ function showSlide(i){
 
     //indexe göre slides' tan isim ve fotoğraf konumlarını çekme
     document.querySelector(".card-title").textContent = slides[index].name;
-    document.querySelector(".card-img-top").setAttribute('src', "img/" + slides[index].image);
+    document.querySelector(".card-img-top").setAttribute('src', "/img/" + slides[index].image);
 
     //indexe göre yazı metninin değişmesi 
     document.getElementById("yazi").textContent = slides[index].yazi;
